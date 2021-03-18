@@ -1,0 +1,83 @@
+h3 {
+  color: #ed5f58;
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 1.3px;
+}
+
+h3,
+label,
+button {
+  text-transform: uppercase;
+  font-family: 'Brandon Grotesque', serif;
+}
+
+label {
+  font-weight: 500;
+  font-size: 12px;
+  color: #444;
+  padding-left: 8px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input,
+select {
+  width: 425px;
+  height: 35px;
+  border: 1px solid #cdcbca;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-indent: 8px;
+}
+
+input:hover,
+select:hover {
+  background-color: palegoldenrod;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-button {
+  border-radius: 40px;
+  width: 85px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #ed5f58;
+  color: #fefefe;
+  border: none;
+}
+
+.submit-button:hover {
+  background-color: steelblue;
+}
+
+.dropdown-menu {
+  background-color: #f3f3f3;
+  color: #444;
+  font-family: "Brandon Grotesque", serif;
+}
+
+::placeholder {
+  color: #cdcbca;
+  padding-left: 5px;
+}
+
+/* .up-arrow::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f0de";
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+} */
