@@ -29,8 +29,8 @@ input,
 select {
   width: 425px;
   height: 35px;
+  border: 1px solid #cdcbca;
   border-radius: 5px;
-  border-color: #cdcbca;
   margin-bottom: 10px;
   cursor: pointer;
   text-indent: 8px;
