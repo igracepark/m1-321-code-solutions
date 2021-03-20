@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(87, 187, 240);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.icon {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  padding: 0 15px;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  padding-bottom: 5px;
+}
