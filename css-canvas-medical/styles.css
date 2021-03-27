@@ -1,0 +1,42 @@
+.column-full {
+  flex-basis: 90%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li {
+  margin-right: 40px;
+}
+
+.blue-logo {
+  padding: 0 40px;
+  width: 250px;
+  height: 100px;
+}
+
+hr {
+  display: block;
+  height: 0.5px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 0 3rem;
+  margin-bottom: 3rem;
+  padding: 0;
+}
+
+.img-home {
+  margin-top: 5rem;
+}
