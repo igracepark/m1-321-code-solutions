@@ -223,6 +223,7 @@ hr {
 .footer {
   display: flex;
   background-color: #f5f5f5;
+  margin-top: 0;
   padding: 3rem;
 }
 
