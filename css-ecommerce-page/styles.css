@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.header-container {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.header-container h1 {
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.column-fifth {
+  flex-basis: calc(100% / 5);
+}
+
+.description {
+  font-size: 12px;
+  margin-left: 1rem;
+}
+
+.gray-text {
+  color: lightgrey;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.price-bg {
+  background-color: #f8dcc1;
+}
+
+.image {
+  margin: 0 1rem;
+}
+
+.image-container {
+  align-items: baseline;
+  margin-bottom: 0;
+}
