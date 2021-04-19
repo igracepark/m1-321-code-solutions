@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffcee6;
+}
+
+.dark-container {
+  background-color: #090909;
+}
+
+.light {
+  background-color: #fb0098;
+  box-shadow: 0 0 10px #fb0098;
+}
+
+.dark {
+  background-color: #333;
+  box-shadow: 0 -10px 5px 10px #1b1b1b;
+}
