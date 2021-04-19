@@ -10,7 +10,7 @@ $lightBulb.addEventListener('click', function (event) {
     $lightBulbContainer.className = 'container ' + 'dark-container';
     lightIsOn = 'off';
 
-  } else if (lightIsOn === 'off') {
+  } else {
     lightBulbState = 'light';
     $lightBulbContainer.className = 'container';
     lightIsOn = 'on';
