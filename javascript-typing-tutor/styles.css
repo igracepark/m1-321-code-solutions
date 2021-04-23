@@ -27,6 +27,10 @@ span {
   white-space: pre;
 }
 
+.defaultLetter {
+  color: black;
+}
+
 .correctLetter {
   color: #4863a0;
 }
@@ -57,7 +61,7 @@ span,
   font-size: 2rem;
   width: 16rem;
   height: 5rem;
-  padding-top: 1rem;
+  padding-top: 1.3rem;
   box-shadow: 2px 2px 5px gray;
   color: white;
 }

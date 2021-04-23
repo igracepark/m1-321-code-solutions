@@ -6,11 +6,11 @@ var correct = 1;
 var incorrect = 1;
 var correctArray = [];
 
-window.addEventListener('load', function (event) {
+function firstLetter(event) {
   $letters[0].className = 'activeLetter';
-});
+}
 
-document.addEventListener('keydown', function (event) {
+function checkLetter(event) {
   if (event.key === $letters[correctArray.length].textContent) {
     correctArray.push(event.key);
     $correct.textContent = 'Correct: ' + correct++;
@@ -20,8 +20,19 @@ document.addEventListener('keydown', function (event) {
     $letters[correctArray.length].className = 'incorrectLetter';
     $incorrect.textContent = 'Incorrect: ' + incorrect++;
   }
+}
+
+$replayButton.addEventListener('mousedown', function (event) {
+  for (var i = 0; i < $letters.length; i++) {
+    $letters[i].className = 'defaultLetter';
+  }
+  correct = 1;
+  incorrect = 1;
+  correctArray = [];
+  $correct.textContent = 'Correct: 0';
+  $incorrect.textContent = 'Incorrect: 0';
+  firstLetter();
 });
 
-$replayButton.addEventListener('click', function (event) {
-  location.reload();
-});
+window.addEventListener('load', firstLetter);
+document.addEventListener('keydown', checkLetter);
