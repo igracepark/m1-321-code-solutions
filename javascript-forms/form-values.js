@@ -3,7 +3,7 @@ var $form = document.querySelector('#contact-form');
 $form.addEventListener('submit', function (event) {
   event.preventDefault();
 
-  var formElements = document.getElementById('contact-form').elements;
+  var formElements = $form.elements;
 
   var formValues = {
     name: formElements.name.value,
@@ -12,5 +12,6 @@ $form.addEventListener('submit', function (event) {
   };
 
   console.log('formValues:', formValues);
+  $form.reset();
 
 });
